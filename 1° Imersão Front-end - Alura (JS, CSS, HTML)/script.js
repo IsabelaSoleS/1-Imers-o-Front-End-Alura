@@ -6,7 +6,7 @@ const result_playlist = document.getElementById("result_playlist");
 /* const search_input = document.querySelectorAll(".cards") -- Aqui pega todos os itens para manipular, faz uma node list */
 
 function request_api(search_term) {
-    const url = `ttp://localhost:3000/artists?=${search_term}`;
+    const url = `http://localhost:1244/artists?name_like=${search_term}`;
     fetch(url)
         .then((response) => response.json())
         .then((result) => display_results(result))

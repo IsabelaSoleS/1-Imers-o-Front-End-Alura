@@ -333,7 +333,7 @@
  
  .artist_card:hover .play .fa-play {
      opacity: 1;
-     transform: translateY(-20px);
+     transform: translateY(-120px);
  }
  
  .play .fa-play:hover {
